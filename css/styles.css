@@ -1,0 +1,44 @@
+body {
+  background-color: #D5DED9;
+  font-family: "Open Sans", sans-serif; }
+
+h1, h2, h3 {
+  font-family: "Lobster", cursive;
+  color: #7A6A53; }
+
+header h2 {
+  color: #D9CEB2; }
+
+header div div div a {
+  color: #7A6A53;
+  font-weight: bold; }
+
+.site-footer {
+  background-image: linear-gradient(#D9CEB2, white);
+  padding: 20px 0; }
+
+.jumbotron {
+  padding: 20px;
+  background-color: #D9CEB2;
+  color: white;
+  margin: 0; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
+
+.img-thumb {
+  padding: .25rem;
+  border-radius: .25rem;
+  max-width: 100%;
+  height: auto; }
