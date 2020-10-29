@@ -1,5 +1,5 @@
 body {
-  background-color: #D5DED9;
+  background-color: white;
   font-family: "Open Sans", sans-serif; }
 
 h1, h2, h3 {
@@ -7,19 +7,19 @@ h1, h2, h3 {
   color: #7A6A53; }
 
 header h2 {
-  color: #D9CEB2; }
+  color: white; }
 
 header div div div a {
   color: #7A6A53;
   font-weight: bold; }
 
 .site-footer {
-  background-image: linear-gradient(#D9CEB2, white);
+  background-image: linear-gradient(white, white);
   padding: 20px 0; }
 
 .jumbotron {
   padding: 20px;
-  background-color: #D9CEB2;
+  background-color: white;
   color: white;
   margin: 0; }
 
@@ -42,3 +42,25 @@ header div div div a {
   border-radius: .25rem;
   max-width: 100%;
   height: auto; }
+
+.gallery-img {
+  height: 400px;
+  object-fit: cover; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(63, 63, 63, 0.425); }
+
+.overlay:hover {
+  opacity: 1; }
+
+.pt-100 {
+  padding-top: 100px; }

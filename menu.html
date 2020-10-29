@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="/css/styles.css" />
-    <title>Menu</title>
+    <title>Tea Era</title>
 </head>
 
 <body>
@@ -22,7 +22,9 @@
         <div class="container mx-auto ">
             <div class="row">
                 <div class="col-4 align-self-center">
-                    <h1>Tea Era</h1>
+                    <a href="index.html">
+                        <h1>Tea Era</h1>
+                    </a>
                 </div>
                 <div class="col align-self-center">
                     <a href="menu.html">Menu</a>
@@ -43,91 +45,217 @@
         </div>
     </header>
 
-    
-    <div class="container">
-        <!-- Carousel -->
-        <div class="row row-content">
-            <div class="col mx-auto">
-                <div id="homeCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#homeCarousel" data-slide-to="1"></li>
-                        <li data-target="#homeCarousel" data-slide-to="2"></li>
-                        <li data-target="#homeCarousel" data-slide-to="3"></li>
-                    </ol>
-                    <div class="carousel-inner" style=" width:100%; height: 700px !important;">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="img/carousel-1.jpg"
-                                alt="Breadcrumb Trail Campground" />
-                            <!-- <div class="carousel-caption">
-                                <h3>Breadcrumb Trail Campground</h3>
-                                <p class="d-none d-sm-block">Let Nucamp be your guide to this off-the-beaten-path,
-                                    hike-in-only campground.</p>
-                            </div> -->
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="img/carousel-2.jpg" alt="React Lake Campground" />
-                            <!-- <div class="carousel-caption">
-                                <h3>React Lake Campground</h3>
-                                <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this
-                                    campground on the shores of the pristine React Lake is a favorite for fly fishers.
-                                </p>
-                            </div> -->
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="img/carousel-3.jpg" alt="Chrome River Campground" />
-                            <!-- <div class="carousel-caption">
-                                <h3>Chrome River Campgroun</h3>
-                                <p class="d-none d-sm-block">Spend a few sunny days and starry nights beneath a canopy
-                                    of old-growth firs at this enchanting spot by the Chrome River.</p>
-                            </div> -->
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="img/carousel-4.jpg" alt="Chrome River Campground" />
-                            <!-- <div class="carousel-caption">
-                                <p class="d-none d-sm-block">Spend a few sunny days and starry nights beneath a canopy
-                                    of old-growth firs at this enchanting spot by the Chrome River.</p>
-                            </div> -->
-                        </div>
 
-                    </div>
-                    <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+    <div class="container" style="margin-top: 120px;">
+        <div class="row">
+            <h3 class="text-center mx-auto"> - Our Drinks -</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img class="w-100 img-thumb gallery-img" src="/img/gallery/choco-latte.jpeg" alt="">
+                <div class="overlay text-center pt-100">
+                    <h4 class="text-white">Chocolate Latte</h4>
+                    <div class="text-white">$6.50</div>
+                    <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, beatae.
+                    </p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="w-100 img-thumb gallery-img" src="/img/gallery/choco-ube-slush.jpg" alt="">
+                <div class="overlay text-center pt-100">
+                    <h4 class="text-white">Chocolate Ube Slush</h4>
+                    <div class="text-white">$6.50</div>
+                    <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quia modi
+                        odio.</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="w-100 img-thumb gallery-img" src="/img/gallery/cinnamon-swirl-slush.jpg" alt="">
+                <div class="overlay text-center pt-100">
+                    <h4 class="text-white">Cinnamon Swirl Slush</h4>
+                    <div class="text-white">$6.50</div>
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam doloribus
+                        quo aliquid sequi sint dignissimos?</p>
+                    <button class="btn btn-primary">Add to Cart</button>
                 </div>
             </div>
         </div>
-        <div class="row row-content align-items-center">
-            <div class="col-6">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumb" src="img/carousel-1.jpg"
-                        alt="Breadcrumb Trail" />
+        <div class="row">
+            <div class="col-4">
+                <img class="w-100 img-thumb gallery-img" src="/img/gallery/iced-coffee.jpg" alt="">
+                <div class="overlay text-center pt-100">
+                    <h4 class="text-white">Classic Iced Coffee</h4>
+                    <div class="text-white">$3.50</div>
+                    <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <button class="btn btn-primary">Add to Cart</button>
                 </div>
             </div>
-            <div class="col-6">
-                <h2 class="text-right">Our Mission Statement</h2>
-                <p class="text-right d-none d-sm-block">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat eaque, alias officiis cum placeat tempora mollitia fugit dicta architecto."</p>
+            <div class="col-4">
+                <img class="w-100 img-thumb gallery-img" src="/img/gallery/iced-tea-lemon.jpeg" alt="">
+                <div class="overlay text-center pt-100">
+                    <h4 class="text-white">Lemon Iced Tea</h4>
+                    <div class="text-white">$3.50</div>
+                    <p class="text-white">Lorem ipsum dolor sit amet.</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img class="w-100 img-thumb gallery-img" src="/img/gallery/match-green.jpg" alt="">
+                <div class="overlay text-center pt-100">
+                    <h4 class="text-white">Matcha Green Tea</h4>
+                    <div class="text-white">$4.50</div>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi maiores eum
+                        quia!</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
             </div>
         </div>
-
-        <div class="row row-content align-items-center">
-            <div class="col-6">
-                <h2 class="">Our Commitment & Responsibility</h2>
-                <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quas nulla atque soluta eum cum, accusantium, hic quaerat, odio quibusdam nemo? Animi facere consequuntur nesciunt et saepe ipsam optio! Laborum nihil tenetur obcaecati incidunt, blanditiis error facere! Placeat molestias nostrum obcaecati! Sed, vitae alias ipsum ea exercitationem nesciunt rem voluptatum soluta delectus iusto praesentium sequi incidunt eveniet odit tenetur quae hic qui autem est reiciendis at, ut, et ab officia! Eum voluptas esse nobis optio dicta possimus quis cumque quasi quia? Rerum, sint! Exercitationem officia enim est minus vel quod officiis explicabo illum quos cumque? Fugit, tempora quidem? Neque, sunt!</p>
+        <div class="row">
+            <div class="col-4">
+                <img class="w-100 img-thumb gallery-img" src="/img/gallery/matcha-latte.jpg" alt="">
+                <div class="overlay text-center pt-100">
+                    <h4 class="text-white">Matcha Latte</h4>
+                    <div class="text-white">$4.50</div>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, corporis!</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
             </div>
-            <div class="col-6">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumb" src="img/commitment-responsibility.jpg"
-                        alt="Breadcrumb Trail" />
+            <div class="col-4">
+                <img class="w-100 img-thumb gallery-img" src="/img/gallery/milk-tea.jpg" alt="">
+                <div class="overlay text-center pt-100">
+                    <h4 class="text-white">Classic Milk Green Tea</h4>
+                    <div class="text-white">$3.50</div>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img class="w-100 img-thumb gallery-img" src="/img/gallery/oreo-slush.jpeg" alt="">
+                <div class="overlay text-center pt-100">
+                    <h4 class="text-white">Oreo Slush</h4>
+                    <div class="text-white">$6.50</div>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, laboriosam
+                        eveniet. Animi dignissimos quis quae temporibus nostrum.</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img class="w-100 img-thumb gallery-img" src="/img/gallery/strawberry-passion.jpeg" alt="">
+                <div class="overlay text-center pt-100">
+                    <h4 class="text-white">Strawberry Passion Green Tea</h4>
+                    <div class="text-white">$5.00</div>
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ad placeat
+                        eaque dolor tempora quidem similique, est necessitatibus voluptates?</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img class="w-100 img-thumb gallery-img" src="/img/gallery/strawberry-peach-lemonade.jpeg" alt="">
+                <div class="overlay text-center pt-100">
+                    <h4 class="text-white">Strawberry Peach Lemonade</h4>
+                    <div class="text-white">$4.50</div>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum tempora
+                        possimus quos sint.</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img class="w-100 img-thumb gallery-img" src="/img/gallery/thai-tea.jpeg" alt="">
+                <div class="overlay text-center pt-100">
+                    <h4 class="text-white">Thai Tea</h4>
+                    <div class="text-white">$4.50</div>
+                    <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae,
+                        voluptatum?</p>
+                    <button class="btn btn-primary">Add to Cart</button>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- 
+    <div class="row">
+        <div class="col-md-12">
+
+            <div id="mdb-lightbox-ui"></div>
+
+            <div class="mdb-lightbox">
+
+                <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg"
+                        data-size="1600x1067">
+                        <img alt="picture" src="/img/gallery/choco-latte.jpeg" class="img-fluid">
+                    </a>
+                </figure>
+
+                <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg"
+                        data-size="1600x1067">
+                        <img alt="picture" src="/img/gallery/iced-coffee.jpg" class="img-fluid" />
+                    </a>
+                </figure>
+
+                <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(152).jpg"
+                        data-size="1600x1067">
+                        <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(152).jpg"
+                            class="img-fluid" />
+                    </a>
+                </figure>
+
+                <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(42).jpg" data-size="1600x1067">
+                        <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(42).jpg"
+                            class="img-fluid" />
+                    </a>
+                </figure>
+
+                <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(151).jpg"
+                        data-size="1600x1067">
+                        <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(151).jpg"
+                            class="img-fluid" />
+                    </a>
+                </figure>
+
+                <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(40).jpg" data-size="1600x1067">
+                        <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(40).jpg"
+                            class="img-fluid" />
+                    </a>
+                </figure>
+
+                <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(148).jpg"
+                        data-size="1600x1067">
+                        <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(148).jpg"
+                            class="img-fluid" />
+                    </a>
+                </figure>
+
+                <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(147).jpg"
+                        data-size="1600x1067">
+                        <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
+                            class="img-fluid" />
+                    </a>
+                </figure>
+
+                <figure class="col-md-4">
+                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(149).jpg"
+                        data-size="1600x1067">
+                        <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(149).jpg"
+                            class="img-fluid" />
+                    </a>
+                </figure>
+
+            </div>
+
+        </div>
+    </div> -->
 
     <footer>
         <div class="container">
@@ -163,6 +291,11 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script>
+        $(function () {
+            $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+        });
+    </script>
 
 </body>
 
