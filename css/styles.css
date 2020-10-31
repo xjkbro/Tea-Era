@@ -1,9 +1,20 @@
 body {
   background-color: white;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 h1, h2, h3 {
-  font-family: "Lobster", cursive;
+  font-family: "Poiret One";
+  color: #7A6A53; }
+
+#logo {
+  height: 40px;
+  vertical-align: unset;
+  margin-left: 10px; }
+
+a:hover {
+  color: grey; }
+
+a {
   color: #7A6A53; }
 
 header h2 {
@@ -12,6 +23,9 @@ header h2 {
 header div div div a {
   color: #7A6A53;
   font-weight: bold; }
+
+header div div div a:hover {
+  color: grey; }
 
 .site-footer {
   background-image: linear-gradient(white, white);

@@ -12,8 +12,8 @@ $color-dark: #7A6A53;
 $color-teal:  #17A2B8;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 
-$body-font: "Open Sans", sans-serif;
-$header-font: "Lobster", cursive;
+$body-font: "Montserrat", sans-serif;
+$header-font: "Poiret One";
 
 
 body {
@@ -25,8 +25,18 @@ h1, h2, h3 {
     font-family: $header-font;
     color: $color-dark;
 }
+#logo {
+    height: 40px; 
+    vertical-align: unset; 
+    margin-left: 10px;
+}
 
-
+a:hover {
+    color: grey
+}
+a {
+    color: $color-dark;
+}
 header {
     h2 {
     color: $color-pale;
@@ -37,6 +47,9 @@ header {
                 a {
                     color: $color-dark;
                     font-weight: bold;
+                }
+                a:hover {
+                    color: grey
                 }
             }
         }
