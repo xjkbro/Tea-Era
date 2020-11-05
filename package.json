@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass -o css/ css/",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
-    "imagemin": "imagemin img/* -o dist/img",
+    "imagemin": "imagemin img/* -o dist/img && imagemin img/gallery/* -o dist/img/gallery",
     "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin tea.html -d dist --htmlmin -o dist/tea.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin locations.html -d dist --htmlmin -o dist/locations.html && usemin menu.html -d dist --htmlmin -o dist/menu.html && usemin attractions.html -d dist --htmlmin -o dist/attractions.html",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
